@@ -11,10 +11,10 @@ public class Main {
 			int N = sc.nextInt();
 			int n1 = N;
 			
-			if (N <= 0) {
+			if (N < 0) {
 				System.out.println("Digite um número acima de 0");
 			}else {
-				System.out.println("A posição " + n1 + " tem o valor: " + fibonacci(N));
+				System.out.println("fib(" + n1 + ") =  " + fibonacci(N));
 			}
 			sc.close();
 	}
